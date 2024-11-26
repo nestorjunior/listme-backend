@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/users", userRoutes);
+app.use("/api", userRoutes);
 
-app.listen(PORT, () => console.log(`Server load port ${PORT}`));
+app.listen(PORT, () =>
+  console.log(`Server load port http://localhost:${PORT}`)
+);
