@@ -1,7 +1,9 @@
 [x] Init config BE
-[x] Create folders
-[x] Config routes
-[X] Create models
 [X] Setup Supabase
+[x] Create folders
+[X] Define endpoints
+[X] Create models
+[x] Config routes
+[X] Create services
 [] Tests Postman
 [] Connect FE + BE
