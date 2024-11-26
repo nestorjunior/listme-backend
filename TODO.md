@@ -1,6 +1,6 @@
 [x] Init config BE
 [x] Create folders
-[] Config routes
+[x] Config routes
 [] Tests Postman
 [] Create models
 [] Setup Supabase
